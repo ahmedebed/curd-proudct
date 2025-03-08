@@ -92,6 +92,10 @@ td {
 th {
   background: #333;
 }
+#deleteAll {
+  margin: 20px 0;
+  width: 100%;
+}
 
 /* ✅ Responsive Styles */
 @media (max-width: 768px) {

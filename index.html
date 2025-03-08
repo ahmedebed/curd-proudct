@@ -49,11 +49,16 @@
         <div class="search">
           <input type="text" placeholder="Search" id="search" />
           <div class="search-btn">
-            <button id="searchTitle">Search By Title</button>
-            <button id="searchCategory">Search By Category</button>
+            <button onclick="getSearchMood(this.id)" id="searchTitle">
+              Search By Title
+            </button>
+            <button onclick="getSearchMood(this.id)" id="searchCategory">
+              Search By Category
+            </button>
           </div>
         </div>
       </div>
+      <div id="deleteAll"></div>
       <table>
         <tr>
           <th>id</th>
@@ -67,9 +72,7 @@
           <th>Update</th>
           <th>delete</th>
         </tr>
-        <tbody id="tbody">
-          
-        </tbody>
+        <tbody id="tbody"></tbody>
       </table>
     </div>
     <script src="index.js"></script>
